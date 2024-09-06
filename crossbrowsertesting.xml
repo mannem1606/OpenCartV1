@@ -11,7 +11,11 @@
    <parameter name="browser" value="chrome"/>
    
    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/>
+       <class name="testCases.TC001_AccountRegistrationTest"/>
+       <class name="testCases.TC_002_LoginTest" />
+       <class name="testCases.TC_004_SearchProductTest" />
+	   <class name="testCases.TC_005_AddToCartPageTest" />
+	   <!-- class name="testCases.TC_006_EndToEndTest" />  -->
    </classes>
    </test> <!-- Test -->
 
@@ -20,6 +24,10 @@
    <parameter name="browser" value="chrome"/>
    <classes>
       <class name="testCases.TC001_AccountRegistrationTest"/>
+      <class name="testCases.TC_002_LoginTest" />
+	  <class name="testCases.TC_004_SearchProductTest" />
+	  <class name="testCases.TC_005_AddToCartPageTest" />
+	  <!-- class name="testCases.TC_006_EndToEndTest" />  -->
     </classes>
    </test> <!-- Test -->
   
@@ -27,7 +35,12 @@
    <parameter name="os" value="Windows"/>
    <parameter name="browser" value="chrome"/>
    <classes>
-      <class name="testCases.TC001_AccountRegistrationTest"/></classes>
+       <class name="testCases.TC001_AccountRegistrationTest"/>
+       <class name="testCases.TC_002_LoginTest" />
+       <class name="testCases.TC_004_SearchProductTest" />
+	   <class name="testCases.TC_005_AddToCartPageTest" />
+	   <!-- class name="testCases.TC_006_EndToEndTest" />  -->
+      </classes>
    </test> <!-- Test -->
    
 </suite> <!-- Suite -->
